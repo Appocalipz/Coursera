@@ -98,7 +98,6 @@ function buildAndShowHomeHTML (categories) {
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "short_name", chosenCategoryShortName);
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
-        console.log(a);
         /*
          var insertProperty = function (string, propName, propValue) {
          var propToReplace = "{{" + propName + "}}";
