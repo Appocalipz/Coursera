@@ -89,7 +89,6 @@ $ajaxUtils.sendGetRequest(
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
-
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
@@ -110,7 +109,6 @@ function chooseRandomCategory (categories) {
   // return category object with that randomArrayIndex
   return categories[randomArrayIndex];
 }
-
 
 // Load the menu categories view
 dc.loadMenuCategories = function () {
